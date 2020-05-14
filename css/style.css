@@ -1,0 +1,52 @@
+/* Anothers Styles and Components */
+
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  background-color:white;
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.explanation-section{
+  margin:10px;
+  text-align: center;
+  border-radius:5px;
+}
+
+i{
+  font-size:50px;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.2);
+  color:white;
+}
+
+#social-media li{
+  list-style-type: none;
+  display:inline-block;
+}
+
+.footer{
+ display:flex;
+ text-align: center;
+ justify-content: center;
+ background-image:url('../images/riobanner.jpeg');
+ background-size: cover;
+ height:100px;
+}

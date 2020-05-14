@@ -1,0 +1,31 @@
+.banner {
+  background-image: url('../../images/riobanner.jpeg');
+  background-size:cover;
+  background-position: center;
+  height:600px;
+
+}
+
+.container {
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h1{
+  color:white;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3)
+  margin:0;
+}
+
+.container p{
+  color:rgba(250,250,250,0.8);
+  margin:0;
+}
+
+.container a{
+  margin:0;
+}

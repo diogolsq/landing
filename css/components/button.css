@@ -1,0 +1,12 @@
+.btn-hero{
+  color:white;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  background-color:lightgreen;
+  border-radius:5px;
+  padding:10px 15px;
+  transition:0.3s;
+}
+
+.btn-hero:hover{
+  background-color: #3AC200;
+}
